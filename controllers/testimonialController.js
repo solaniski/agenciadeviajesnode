@@ -25,7 +25,7 @@ const guardarTestimonial = async (req, res) => {
 
         // Mostrar la vista con errores
         res.render('testimoniales', {
-            pagina: 'Testimoniales',
+            pagina: 'Testimonios',
             errores,
             nombre,
             correo,

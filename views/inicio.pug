@@ -2,18 +2,23 @@ extends ./layout/index
 
 block slider 
     .slider 
-        h1 Rio de Janeiro
-        em Aventura
+        h1 Carcassonne
+        em Magia Medieval
 
 block contenido
     main.container.mt-5
         h2.text-center.mb-5 Sobre Nosotros
         .row.mb-5 
             .col-md-6 
-                p Lorem fistrum qué dise usteer benemeritaar pecador hasta luego Lucas hasta luego Lucas. A gramenawer no te digo trigo por no llamarte Rodrigor qué dise usteer qué dise usteer caballo blanco caballo negroorl caballo blanco caballo negroorl ahorarr no te digo trigo por no llamarte Rodrigor tiene musho peligro. 
-                p Te va a hasé pupitaa diodeno qué dise usteer amatomaa me cago en tus muelas. Condemor sexuarl diodenoo diodeno tiene musho peligro. Condemor diodeno pecador jarl apetecan al ataquerl no te digo trigo por no llamarte Rodrigor. 
+                p Proyecto realizado en Node.JS junto con Express, usando PUG para el template, proyecto realizado con los conocimientos aprendidos en el curso: 
+                    a(href="https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/", target="_blank") Javascript moderno guía definitiva 
+                p Subido a Github en el repositorio: 
+                    a(href="https://github.com/solaniski/agenciadeviajesnode", target="_blank") agenciadeviajes   
+                p Puesto en producción en servidor ubuntu usando el comando pm2 para mantener la aplicación arrancada, conectado a base de datos MySQL haciendo uso de Sequelize
             .col-md-6
                 img(src="/img/inicio_nosotros.jpg", alt=" imagen nosotros", class="img-fluid")
+            .col-md-12
+                h4.text-center.mt-5 Este es un proyecto con fines académicos, no es una website de viajes real.
         
         include ./layout/bloque_viajes
 
@@ -23,10 +28,10 @@ block contenido
                 .col-md-6 
                     .contenido 
                         h3 5% de Descuento 
-                        p.titulo Viaje a Canada 
-                        p.fecha 20 de Marzo de 2024 - 28 de Marzo de 2024
-                        p.precio 2500€
+                        p.titulo Circuito Marruecos
+                        p.fecha 20 de Marzo de 2024 - 29 de Marzo de 2024
+                        p.precio 800€
 
     .container 
-        h2.mt-5.text-center Testimoniales
+        h2.mt-5.text-center Testimonios
         include ./layout/bloque_testimoniales
